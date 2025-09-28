@@ -5,7 +5,6 @@
         <link rel="shortcut icon" href="report.png" type="image/x-icon">
 <!--     <link rel="stylesheet" href="css/bootstrap.css"/>-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <style>
             .row1 .title-page {
@@ -16,7 +15,8 @@
                 padding: 0;
             } 
 
-            .bold-hr {
+            .hr {
+                opacity: 1 !important;
                 height: 2px;
                 background-color: black;
                 border: none;
@@ -29,18 +29,18 @@
     <body>
 <!--Ex. 1: Equal Columns-->
         <div class="container">
-            <div class="row" style="font-family: 'Times New Roman', Times, serif; padding: 10px;">
+            <div class="row" style="font-family: 'Times New Roman', Times, serif; padding: 10px; font-size: 18px;">
                 <div class="col bg-light text-dark">METRO MANILA, PHILIPPINES</div> 
                 <div class="col bg-light text-dark">
                     <center>TIMES NEWS</center>
                 </div> 
                 <div class="col bg-light text-dark text-end">27 SEPT. 2025</div>
-                <hr style="height: 4px; background-color: black; border: none;">
+                <hr style="height: 4px; opacity: 1; background-color: black; border: none;">
             </div>
             <div class="row1" style="font-family: Garamond, serif;">
                 <h1 class="title-page">NEWSPAPER</h1>
-                <hr style="height: 4px; background-color: black; border: none; margin-top: -30px;">
-                <hr class="bold-hr">
+                <hr style="height: 4px; opacity: 1; background-color: black; border: none; margin-top: -30px;">
+                <hr class="hr">
             </div>
         </div>
 
@@ -48,25 +48,100 @@
 
 <!--Ex. 2: Fixed Column Sizes-->
         <div class="container"> 
-            <div class="row"> 
-                <div class="col-5 bg-primary text-white">Column 1 (4/12)</div> 
-                <div class="col-7 bg-success text-white">Column 2 (8/12)</div> 
+            <div class="row" style="padding: 20px;"> 
+                <div class="col-5" style="padding-top: 15px;">
+                    <img src="thetrio.jpg" alt="News image" style="width: 100%; height: auto;">
+                </div> 
+                <div class="col-7 bg-light text-dark" style="padding-left: 40px;">
+                    <center>
+                        <h1 style="text-align: justify;">
+                            <b>MYSTERY LIGHTS APPEAR OVER RIVERTOWN SKY</b>
+                        </h1>
+                        <h2 style="text-align: justify; font-family: 'Times New Roman', Times, serif, sans-serif; font-size: 21px;">AUTHORITIES BAFFLED, LOCALS CLAIM "IT WAS LIKE DAYLIGHT AT MIDNIGHT"</h2>
+                        <p style="text-align: start; font-family: 'Times New Roman', Times, serif; font-size: 18px;">
+                            <i>
+                                <b>By Harry Potter, Staff Writer</b>
+                            </i>
+                        </p>
+                        <p style="text-align: justify; font-family: 'Times New Roman', Times, serif, sans-serif; font-size: 18px;">
+                            Residents of Rivertown were left baffled last night as mysterious lights 
+                            appeared in the sky, sparking a flurry of speculation and excitement. 
+                            Witnesses reported seeing bright, colorful lights moving in unusual patterns, 
+                            leading to theories ranging from UFO sightings to atmospheric phenomena. 
+                            Local authorities have urged calm and are investigating the incident.
+                            Experts suggest that the lights could be a result of a rare meteorological event,
+                            while others believe it could be linked to recent satellite launches. The community is eagerly awaiting further information as the investigation continues. 
+
+                            Earlier today, local officials held a press conference to address public concerns, assuring residents that safety measures are in place and that experts from the national observatory have been consulted. Several eyewitnesses described the lights as "dancing" across the sky, with some capturing videos that have since gone viral on social media.
+
+                            Authorities have encouraged anyone with additional footage or information to come forward, as investigators work to piece together the timeline of events. As night falls again over Rivertown, many residents are keeping a watchful eye on the sky, hoping for answers to the mystery that has captivated the community.
+
+                            In conclusion, the unexplained lights have brought Rivertown together in curiosity and concern, highlighting the importance of community vigilance and scientific inquiry. As investigations continue, residents remain hopeful that the truth behind the phenomenon will soon be revealed.
+                        </p>
+                    </center>
+                </div> 
             </div> 
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-5 bg-light text-dark" style="padding-right: 40px;">
+                    <center>
+                        <div >
+                            <img src="quote.png" alt="Quotation image" style="width: 40px; float: left; margin-right: 10px;">
+                            <p style="text-align: justify; font-family: 'Times New Roman', Times, serif, sans-serif; font-size: 15px;">
+                                <i>
+                                    “Happiness can be found, even in the darkest of times, if one only remembers to turn on the light”, Dumbledore added,
+                                    “It takes a great deal of bravery to stand up to your enemies, but a great deal more to stand up to your friends.”
+                                </i>
+                            </p>
+                        </div>
+
+                        <p style="text-align: justify; font-family: 'Times New Roman', Times, serif, sans-serif; font-size: 18px;">
+                            As the investigation unfolds, some residents have organized community gatherings to share their experiences and theories. Local businesses have reported an uptick in customers, with many people coming together to discuss the phenomenon over coffee and pastries. Teachers at Rivertown High School have even incorporated the event into science lessons, encouraging students to explore possible explanations and learn more about astronomy.
+
+                            While uncertainty remains, the spirit of curiosity and unity has brought Rivertown closer than ever. Authorities promise to keep the public informed as new details emerge, and experts continue to analyze the evidence. For now, the mysterious lights serve as a reminder of the wonders that can appear when least expected, inspiring both awe and investigation in all who witnessed them.
+                            In today's world, unexplained phenomena like the Rivertown lights often spark widespread interest and debate, amplified by social media and instant communication. People are quick to share their experiences online, leading to viral discussions and sometimes misinformation. The event in Rivertown mirrors how communities globally respond to unusual occurrences—coming together, seeking answers, and relying on both scientific expertise and collective curiosity. As technology advances, our ability to document and analyze such events grows, but so does the challenge of separating fact from speculation. Ultimately, these moments remind us of the enduring human desire to understand the unknown and the importance of approaching mysteries with both wonder and critical thinking.
+                        </p>
+                    </center>
+                </div> 
+                <div class="col-7 bg-light text-dark" style="padding-top: 10px;">
+                    <img src="hogwart.jpg" alt="News image" style="width: 100%; height: auto; padding-top: 15px;">
+                </div> 
+
+            </div>
         </div>
 
 <!--Ex. 3: Responsive Grid-->
         <div class="container"> 
             <div class="row"> 
-                <div class="col-12 col-md-6 col-lg-4 bg-primary text-white">Box 
-                1</div> 
-                <div class="col-12 col-md-6 col-lg-4 bg-success text-white">Box 
-                2</div> 
-                <div class="col-12 col-md-12 col-lg-4 bg-danger text-white">Box 
-                3</div> 
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div  class="bg-dark text-white" style="text-align: justify; padding: 20px;">
+                        <p style="text-align: justify; font-family: 'Times New Roman', Times, serif, sans-serif; font-size: 18px;">
+                            In a brief statement Friday night, Minister for Magic Cornelius Fudge confirmed that He-Who-Must-Not-Be-Named has returned to this country and is active once more. "It is with great regret that I must confirm that the wizard styling himself Lord - well, you know who I mean - is alive and among us again," said Fudge, looking tired and flustered as he addressed reporters. <br>
+                            Widespread concern has gripped the wizarding community, with increased security measures now in place at Hogwarts and throughout Diagon Alley. Aurors have been dispatched to investigate recent Death Eater activity, and the Ministry urges all witches and wizards to remain vigilant. Sources close to the Order of the Phoenix report that Dumbledore is coordinating efforts to resist Voldemort’s growing influence, while families are advised to take extra precautions and report any suspicious behavior.
+                            As uncertainty spreads, many recall the dark days of Voldemort’s previous reign, hoping that unity and courage will prevail once again. The Ministry promises to keep the public informed as new developments arise.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 bg-secondary text-white">
+                    <h1 style="text-align: justify; font-size: 50px;">
+                        HE WHO MUST NOT BE NAMED
+                        <b class="text-dark">RETURNED</b>
+                    </h1>
+                    <img src="voldemort.jpg" alt="Voldemort image" style="width: 100%; padding-top: 20px;">
+                </div> 
+
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="text-dark" style="text-align: justify; padding: 20px;">
+                        <p style="text-align: justify; font-family: 'Times New Roman', Times, serif, sans-serif; font-size: 18px;">
+                            The Ministry is currently publishing guides to elementary home and personal defense that will be delivered free to all wizarding homes within the coming month. The Minister's statement was met with dismay and alarm from the wizarding community, which as recently as last Wednesday was receiving Ministry assurances that there was "no truth whatsoever in these persistent rumors that You-Know-Who is operating amongst us once more." Details of the events that led to the Ministry turnaround are still hazy, though it is believed that He-Who-Must-Not-Be-Named and a select band of followers (known as Death Eaters) gained entry to the Minstry of Magic itself on Thursdat evening. Albus Dumbledore, newly reinstated headmaster of Hogwarts School of Witchcraft and Wizardry, reinstated member of the Internation Confederation of Wizards and reisnated Chief Warlock of the Wizengamot, was unavailable for comment last night. He has insisted for a year that You-Know-Who was not dead, as was widely hoped and believed, but recruiting followers once more for a fresh attempt to seize power.
+                        </p>
+                    </div>
+                </div> 
             </div> 
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
-
 </html>
